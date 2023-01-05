@@ -18,15 +18,15 @@ This is a back end for an e-commerce using starter code. Express.js, Sequelize, 
 
 ## Installation 
 
-1. Download the folder to the local computer. 
-2. Open the folder in the terminal. 
-3. Create a .env file to access one's local mysql database. The format is:
+1. Download the folder to the local computer and unzip it. 
+2. Open the folder in the terminal. Open it in VS code using code . 
+3. In the VS code, create a .env file to access one's local mysql database. The format is:
 ```
 DB_NAME='ecommerce_db'
 DB_PASSWORD='<your password here>'
 DB_USER='root'
 ```
-3. Run `npm i` to install the dependencies. 
+3. Go back to terminal and run `npm i` to install the dependencies. 
 4. Seed the database using `npm run seed` .
 4. Finally run `node server.js` or `npm run start` to to run the program in the terminal.
 
@@ -39,6 +39,8 @@ Run `node server.js` in the terminal and  generate tests requests using Insomnia
 Modify as needed according this project's license.
 
 ## Walkthrough Video
+[![walkthrough](./assets/e-commerce.png)](https://vimeo.com/786499708/6ed5fc64c1)
+
 
 ## Test 
 
